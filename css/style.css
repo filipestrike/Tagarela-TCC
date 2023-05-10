@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Mitr:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mitr", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #aac8da;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+
+.tagarela {
+  position: absolute;
+  width: 359px;
+  height: 97px;
+  left: 621px;
+  top: 182px;
+
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100px;
+  text-align: center;
+  color: #004f84;
+}
+
+.garoto {
+  position: absolute;
+  width: 112px;
+  height: 115px;
+  left: 744px;
+  top: 67px;
+}
+
+.login {
+  position: absolute;
+  width: 219px;
+  height: 70px;
+  left: 691px;
+  top: 327px;
+  color: #004f84;
+}
+
+.usuario {
+  position: absolute;
+  width: 152px;
+  height: 27px;
+  left: 540px;
+  top: 446px;
+
+  font-family: "Lexend" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+
+input[type="text"] {
+  position: absolute;
+  width: 564px;
+  height: 66px;
+  left: 518px;
+  top: 479px;
+
+  background: #d9d9d9;
+  border-radius: 30px;
+}
+
+.senha {
+  position: absolute;
+  width: 152px;
+  height: 10px;
+  left: 540px;
+  top: 575px;
+
+  font-family: "Lexend" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+
+input[type="password"] {
+  position: absolute;
+  width: 564px;
+  height: 66px;
+  left: 518px;
+  top: 611px;
+
+  background: #d9d9d9;
+  border-radius: 30px;
+}
+
+.button-continuar {
+  position: absolute;
+  width: 335px;
+  height: 79px;
+  left: 633px;
+  top: 738px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+  display: table;
+
+  background: #004f84;
+  border-radius: 30px;
+}
+
+.button-continuar a {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+  color: #ffffff;
+}

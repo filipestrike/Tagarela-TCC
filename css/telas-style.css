@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Mitr:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mitr", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #aac8da;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+.tagarela {
+  position: absolute;
+  height: 97px;
+  width: 359px;
+  left: 621px;
+  top: 142px;
+
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100px;
+  text-align: center;
+  color: #004f84;
+}
+
+.garoto {
+  position: absolute;
+  width: 112px;
+  height: 115px;
+  left: 744px;
+  top: 27px;
+}
+
+nav {
+  background-color: #004f84;
+  position: absolute;
+  width: 1120px;
+  height: 77px;
+  left: 195px;
+  top: 303px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+  font-size: 36px;
+}
+
+a {
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 57px;
+  text-align: center;
+  color: #59a5d8;
+  text-decoration: none;
+  padding: 0px 20px 0 20px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #f2fbfd;
+}
