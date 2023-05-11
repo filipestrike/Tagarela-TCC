@@ -89,3 +89,22 @@ a {
 a:hover {
   color: #f2fbfd;
 }
+
+.sair {
+  position: absolute;
+  width: 130px;
+  height: 65px;
+  left: 1423px;
+  top: 38px;
+
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+
+  /* Text */
+
+  color: #004f84;
+}

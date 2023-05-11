@@ -58,13 +58,7 @@
   border-radius: 30px;
 }
 
-#word1 {
-  position: absolute;
-  width: 272px;
-  height: 48px;
-  left: 145px;
-  top: 715px;
-
+p {
   font-family: "Mitr";
   font-style: normal;
   font-weight: 500;
@@ -73,4 +67,35 @@
   text-align: center;
 
   color: #000000;
+}
+
+#word1 {
+  position: absolute;
+  width: 272px;
+  height: 48px;
+  left: 145px;
+  top: 715px;
+}
+#word2 {
+  position: absolute;
+  width: 272px;
+  height: 48px;
+  left: 494px;
+  top: 715px;
+}
+
+#word3 {
+  position: absolute;
+  width: 272px;
+  height: 48px;
+  left: 834px;
+  top: 715px;
+}
+
+#word4 {
+  position: absolute;
+  width: 272px;
+  height: 48px;
+  left: 1184px;
+  top: 709px;
 }
