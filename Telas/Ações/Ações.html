@@ -7,23 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/telas-style.css">
   <link rel="stylesheet" href="/css/boxs-style.css">
-  <title>Ações</title>
+  <title>AÇÕES</title>
 </head>
 
 <body>
-  <a class="sair" href="/index.html">Sair</a>
+  <a class="sair" href="/index.html">SAIR</a>
   <header>
     <div>
       <img class="garoto" src="/utils/img/Garoto.svg">
-      <p class="tagarela">Tagarela</p>
+      <p class="tagarela">TAGARELA</p>
     </div>
     <nav>
       <ul>
-        <li><a href="../Dia-aDia/dia.html">Dia a Dia</a></li>
-        <li><a style="color: #F2FBFD;" href="../Ações/Ações.html">Ações</a></li>
-        <li><a href="../Emoções/emocoes.html">Emoções</a></li>
-        <li><a href="../necessidades/necessidades.html">Necessidades</a></li>
-        <li><a href="../comidas/comidas.html">Comidas</a></li>
+        <li><a href="../Dia-aDia/dia.html">DIA A DIA</a></li>
+        <li><a style="color: #F2FBFD;" href="../Ações/Ações.html">AÇÕES</a></li>
+        <li><a href="../Emoções/emocoes.html">EMOÇÕES</a></li>
+        <li><a href="../necessidades/necessidades.html">NECESSIDADES</a></li>
+        <li><a href="../comidas/comidas.html">COMIDAS</a></li>
       </ul>
     </nav>
   </header>
@@ -31,25 +31,51 @@
     <div id="box1" class="box">
       <img src="/utils/img/Ações-Fechar.svg" alt="Imagem 1">
     </div>
-    <p id="word1">Fechar</p>
+    <p id="word1">FECHAR</p>
 
     <div id="box2" class="box">
       <img src="/utils/img/Ações-Correr.svg" alt="Imagem 2">
     </div>
-    <p id="word2">Correr</p>
+    <p id="word2">CORRER</p>
 
     <div id="box3" class="box">
       <img src="/utils/img/Ações-Abrir.svg" alt="Imagem 3">
     </div>
-    <p id="word3">Abrir</p>
+    <p id="word3">ABRIR</p>
 
     <div id="box4" class="box">
       <img src="/utils/img/Ações-Piscar.svg" alt="Imagem 4">
     </div>
-    <p id="word4">Piscar</p>
+    <p id="word4">PISCAR</p>
 
   </section>
 </body>
-<script src="/js/script.js"></script>
+<script>
+
+  var box1 = document.getElementById("box1");
+  box1.addEventListener("click", function () {
+    var audio = new Audio("/utils/aud/Ações/Fechar.mp3");
+    audio.play();
+  });
+
+  var box2 = document.getElementById("box2");
+  box2.addEventListener("click", function () {
+    var audio = new Audio("/utils/aud/Ações/Quero correr.mp3");
+    audio.play();
+  });
+
+  var box3 = document.getElementById("box3");
+  box3.addEventListener("click", function () {
+    var audio = new Audio("/utils/aud/Ações/Abrir.mp3");
+    audio.play();
+  });
+
+  var box4 = document.getElementById("box4");
+  box4.addEventListener("click", function () {
+    var audio = new Audio("/utils/aud/Ações/Estou piscando.mp3");
+    audio.play();
+  });
+
+</script>
 
 </html>
